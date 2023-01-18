@@ -11,8 +11,8 @@ ls
 touch sheep
 ls
 pwd
-mkdir testdir1
-EXITVAR=$(($EXITVAR + $?))
+#mkdir testdir1
+#EXITVAR=$(($EXITVAR + $?))
 cal
 echo "First argument was $1"
 echo "Second argument was $2"
