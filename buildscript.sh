@@ -8,5 +8,6 @@ touch sheep
 ls
 pwd
 cal
-
+echo "First argument was $1"
+echo "Second argument was $2"
 
