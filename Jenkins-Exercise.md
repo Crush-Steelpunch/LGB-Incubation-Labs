@@ -4,7 +4,7 @@
 
 On the Builder, install the required packages `sudo apt install python3-pip python3-venv -y`
 
-Write a multi-stage pipeline to clone the code from this repo
+## Write a multi-stage pipeline to clone the code from this repo
 
 https://github.com/Crush-Steelpunch/hangman
 
