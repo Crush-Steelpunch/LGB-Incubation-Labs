@@ -35,3 +35,5 @@ pkill gunicorn
 ```
 curl localhost:8001
 ```
+
+### Use a clean workspace every build
