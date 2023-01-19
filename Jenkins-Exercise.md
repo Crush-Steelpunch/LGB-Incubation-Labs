@@ -16,6 +16,7 @@ Split the following commands into multiple stages and appropriate order
 python3 -m venv venv
 source venv/bin/activate
 pip3 install -r requirements.txt
+python -c 'from hangman import db; db.create_all()'
 ```
 
 ### Starting the Server
