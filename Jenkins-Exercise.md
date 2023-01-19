@@ -8,7 +8,7 @@ Write a multi-stage pipeline to clone the code from this repo
 
 https://github.com/Crush-Steelpunch/hangman
 
-Split the following commands into multiple stages
+Split the following commands into multiple stages and appropriate order
 
 ### Dependencies
 
@@ -28,4 +28,10 @@ gunicorn --bind=0.0.0.0:8001 hangman:app -D
 
 ```
 pkill gunicorn
+```
+
+### Testing the server is running
+
+```
+curl localhost:8001
 ```
