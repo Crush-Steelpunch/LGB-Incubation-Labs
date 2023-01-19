@@ -13,6 +13,7 @@ Split the following commands into multiple stages and appropriate order
 ### Dependencies
 
 ```
+#!/bin/bash
 python3 -m venv venv
 source venv/bin/activate
 pip3 install -r requirements.txt
@@ -22,6 +23,8 @@ python -c 'from hangman import db; db.create_all()'
 ### Starting the Server
 
 ```
+#!/bin/bash
+source venv/bin/activate
 gunicorn --bind=0.0.0.0:8001 hangman:app -D
 ```
 
